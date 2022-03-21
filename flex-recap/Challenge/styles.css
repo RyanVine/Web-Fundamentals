@@ -1,0 +1,38 @@
+main {
+  background-color: rgb(182, 182, 182);
+  width: 90%;
+  border: 2px solid rgb(182, 182, 182);
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#leftSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#centerSection {
+  background-color: white;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-self: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+h1 {
+  padding-right: 275px;
+}
+p {
+  margin: 5%;
+  background-color: rgb(240, 240, 240);
+}
+
+#rightSection {
+  display: flex;
+  align-self: flex-end;
+}

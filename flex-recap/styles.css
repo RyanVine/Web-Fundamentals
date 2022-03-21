@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+}
+main {
+  width: 90%;
+  /* height: 200px; */
+  border: 2px solid black;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
