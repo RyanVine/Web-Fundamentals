@@ -1,0 +1,27 @@
+main {
+  border: 2px solid black;
+  width: 80%;
+  height: 600px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-areas: "nav nav nav nav nav" "section section div div div" "footer footer footer footer footer";
+  gap: 10px;
+}
+main > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+}
+main nav {
+  grid-area: nav;
+}
+main section {
+  grid-area: section;
+}
+main div {
+  grid-area: div;
+}
+main footer {
+  grid-area: footer;
+}
