@@ -1,0 +1,103 @@
+* {
+  font-family: roboto, sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  background-color: pink;
+  margin: 10px 10px;
+  bottom: 0;
+}
+
+#mainBoxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+#heading {
+  font-size: 70px;
+  margin: auto 20px;
+}
+
+#leftBigBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#nav {
+  margin: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+}
+
+#thirdSection {
+  display: flex;
+  flex-direction: row;
+
+}
+#intro {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#introP {
+  width: 30%;
+}
+#coke {
+  width: 200px;
+  height: 300px;
+  
+}
+
+#rightBox {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+#rightBoxParagraphs {
+  display: flex;
+  flex-direction: row;
+}
+
+#centralImage {
+  width: 25%;
+}
+
+#mainDate {
+  font-size: 70px;
+}
+#agenda {
+  
+  display: flex;
+  flex-direction: row;
+}
+
+#bottomBox {
+  display: flex;
+  flex-direction: row;
+}
+
+#f1 {
+  width: 20%;
+}
+
+#f2 {
+  width: 20%;
+}
+
+#f3 {
+  font-size: 70px;
+  width: 40%;
+}
+
+#f4 {
+  width: 20%;
+}
