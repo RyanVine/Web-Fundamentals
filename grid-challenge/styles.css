@@ -1,0 +1,126 @@
+body {
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+body main {
+  margin: 20px 20px;
+  background-color: #f8d7dc;
+  display: grid;
+  grid-template-areas: "tL tL tL i2 i2 tR tR" "cL cL cL i2 i2 tR tR" "fO fO fO fO fO fO fO";
+}
+
+#topLeft {
+  grid-area: tL;
+}
+
+#heading {
+  font-weight: bold;
+  width: 80%;
+  font-size: 70px;
+  margin: auto 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#nav {
+  margin: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+}
+
+#image2 {
+  margin: 10px;
+  width: 95%;
+  height: 90%;
+  grid-area: i2;
+}
+
+#intro {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#introTitle {
+  margin: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#iSummary {
+  font-weight: bold;
+}
+
+#introInner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#introP {
+  width: 30%;
+}
+
+#topRight {
+  grid-area: tR;
+}
+
+#centralLeft {
+  grid-area: cL;
+}
+
+#mainDate {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+#rightBoxParagraphs {
+  display: flex;
+  flex-direction: row;
+}
+
+#agenda {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+li {
+  list-style-type: none;
+}
+
+#footer {
+  width: 100%;
+  margin: 15px;
+  height: 15vh;
+  grid-area: fO;
+  display: flex;
+  flex-direction: row;
+}
+
+#f1 {
+  width: 15%;
+}
+
+#f2 {
+  width: 15%;
+}
+
+#f3 {
+  font-weight: bold;
+  font-size: 70px;
+  width: 40%;
+}
+
+#f4 {
+  width: 15%;
+}
